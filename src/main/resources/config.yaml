@@ -1,0 +1,12 @@
+database:
+  host: "mudb.learn.mulesoft.com"
+  port: "3306"
+  username: "mule"
+  password: "mule"
+accounts:
+  folder:
+    in: "/diy/input"
+    out: "diy/output/"
+  filename:
+      prefix: "customer-accounts"
+      ext: ".csv"
